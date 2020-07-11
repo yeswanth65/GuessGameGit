@@ -10,7 +10,7 @@
     text-shadow: black;
   }
   
- h1{
+ h1,h2{
     font-family: 'Roboto', sans-serif;
      color: #131212;
      text-shadow: #969191 3px 5px 10px;
