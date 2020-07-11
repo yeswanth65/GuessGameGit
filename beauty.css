@@ -10,7 +10,7 @@
     text-shadow: black;
   }
   
- h1,h2{
+ h1{
     font-family: 'Roboto', sans-serif;
      color: #131212;
      text-shadow: #969191 3px 5px 10px;
@@ -81,4 +81,8 @@ p{
      text-shadow: #969191 3px 5px 10px;
      font-size: 15px;
 }
+a:link {
+    text-decoration: none;
+  }
+
  
