@@ -1,4 +1,4 @@
-let b= Math.round(Math.random()*100);window.alert(b)+1;
+let b= Math.round(Math.random()*100);//window.alert(b)+1;
       let count=0;
       document.getElementById("").innerHTML="pic.jpg"
     function printing(){
