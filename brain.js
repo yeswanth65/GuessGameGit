@@ -2,7 +2,7 @@ let b= Math.round(Math.random()*100);//window.alert(b)+1;
       let count=0;
       document.getElementById("").innerHTML="pic.jpg"
     function printing(){
-             if(count<9){
+             if(count<4){
                     let a = document.getElementById("num").value;
                     if(a<=100 && a>=1){
                      if(a==b){
@@ -29,6 +29,6 @@ let b= Math.round(Math.random()*100);//window.alert(b)+1;
                   else{
                       document.getElementById("hint").innerHTML="game over";     
                  }
-                  document.getElementById("chance").innerHTML=10-count;
+                  document.getElementById("chance").innerHTML=5-count;
                 }
                 
