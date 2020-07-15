@@ -1,6 +1,6 @@
 let b= Math.round(Math.random()*100);//window.alert(b)+1;
       let count=0;
-      let round=10;
+      let round=5;
       document.getElementById("").innerHTML="pic.jpg"
     function printing(){
              if(count<round-1){
@@ -29,7 +29,7 @@ let b= Math.round(Math.random()*100);//window.alert(b)+1;
                   }
                   else{
                       document.getElementById("hint").innerHTML="Game over <br> The number is "+(b+1); 
-                      document.getElementsByClassName("loss").innerHTML="lost.jpg"
+             
                  }
                   document.getElementById("chance").innerHTML=count;
                 }
