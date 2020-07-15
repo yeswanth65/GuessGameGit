@@ -3,23 +3,24 @@
 <head>
     <link rel="stylesheet" type="text/css" href="beauty.css"> 
     <script src="brain.js"> </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Guess Game</title>
+   
 </head>
 
 <body>
-  <img  src="pic.png" class="center" id="pict"> 
-  <h1>Guess a number from <br> 1 to 100</h1>
+
+  <img src="pic.png" class="center" id="pict"> 
+  <h1 id="hint">Guess a number from <br> 1 to 100</h1>
   
-   <div class="buttonIn">
-       <input class="box" type="number" id="num">
+  <div class="buttonIn">
+    
+       <input class="box" type="number" id="num" >
        <img src="Ellipse 1@2x.png" class="e"></img>
-       <button  onclick="printing()">check</button>
+       <button class="buttoncheck" onclick="printing()">check</button>
        <p class="f" id="chance"></p>
+
   </div>
 
-
-   <p id="hint"> </p>
+   <button style="color: black; background-color:#ec8218 ;padding-left: 10px;padding-right: 10px; border-radius: 30px ;box-shadow: rgb(134, 130, 130) 2px 3px px;border-style: solid;" onclick="location.reload()">play again</button>
+  
   </body>
 </html>
