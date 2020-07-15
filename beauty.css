@@ -7,12 +7,15 @@
   body{
     text-align: center;
     text-shadow: black;
+    margin-top: 4px;
   }
   
  h1{
     font-family: 'Roboto', sans-serif;
      color: #131212;
      text-shadow: #969191 3px 5px 10px;
+     margin-block-start: 0em;
+    margin-block-end: 0.3em;
  }
  h2{
     font-family: 'Roboto', sans-serif;
@@ -21,26 +24,28 @@
  }
  .box{
      border-radius: 30px;
-     width: 135px;
+     width: 145px;
      height: 45px;
      border-style: solid;
      border-color: #4C5151;
      box-shadow: #969191 3px 5px 15px ;
      outline: none;
      font-size: 40px;
-     padding-left: 35px;
+     padding-left: 40px;
      padding-bottom: 3px;
-     padding-top: 5px;    
+     padding-top: 5px; 
+     margin-bottom: 13px;
+     
  }
  
- button{
+ .buttoncheck{
     position: absolute; 
     top: 6px; 
-    right: 69px; 
+    right: 62px; 
     z-index: 2; 
     background-color:#009687;
     border-radius: 30px;
-    width: 65px;
+    width: 70px;
     height:45px; 
     font-size: 19px;
     border-style:solid;
